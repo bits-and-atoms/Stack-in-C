@@ -24,7 +24,7 @@ int main()
     int_stack_pop(&v);
     int_stack_pop(&v);
     int_stack_pop(&v);
-    printf("Stack top: %c \n", int_stack_top(&v));
+    printf("Stack top: %d \n", int_stack_top(&v));
     printf("\n---------------------------------\n\n");
 
     printf("For char:\n");
