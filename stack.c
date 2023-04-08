@@ -16,6 +16,7 @@ int main()
     int_stack_push(&v, 20);
     printf("Stack Size is: %lu \n", int_stack_size(&v));
     printf("%d was popped\n", int_stack_top(&v));
+    int_stack_pop(&v);
     printf("Stack Size is: %lu \n", int_stack_size(&v));
     printf("Element at index 1 is: %d \n", int_stack_get(&v, 1));
     printf("Stack top: %d \n", int_stack_top(&v));
